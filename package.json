@@ -1,0 +1,32 @@
+{
+  "name": "@stdlib/math-base-special-boxcoxinv",
+  "version": "0.0.0",
+  "description": "Compute the inverse of a one-parameter Box-Cox transformation.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/math-base-special-boxcoxinv.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "mathematics",
+    "math",
+    "power",
+    "transform",
+    "power transform",
+    "boxcox",
+    "transformation",
+    "box-cox",
+    "inverse"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
