@@ -63,7 +63,7 @@ To compute the inverse of a one-parameter [Box-Cox transformation][box-cox-trans
 ## Usage
 
 ```javascript
-import boxcoxinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-boxcoxinv@deno/mod.js';
+import boxcoxinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-boxcoxinv@v0.1.0-deno/mod.js';
 ```
 
 #### boxcoxinv( y, lambda )
@@ -110,7 +110,7 @@ v = boxcoxinv( NaN, 3.1 );
 
 ```javascript
 import incrspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-incrspace@deno/mod.js';
-import boxcoxinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-boxcoxinv@deno/mod.js';
+import boxcoxinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-boxcoxinv@v0.1.0-deno/mod.js';
 
 var y = incrspace( -1.0, 10.0, 1.0 );
 var l = incrspace( -0.5, 5.0, 0.5 );
