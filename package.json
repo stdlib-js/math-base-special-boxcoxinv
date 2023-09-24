@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-boxcoxinv",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "Compute the inverse of a one-parameter Box-Cox transformation.",
   "license": "Apache-2.0",
   "author": {
@@ -37,15 +37,15 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/math-base-assert-is-nan": "^0.0.8",
-    "@stdlib/math-base-special-exp": "^0.0.6",
-    "@stdlib/math-base-special-log1p": "^0.0.6"
+    "@stdlib/math-base-assert-is-nan": "^0.1.0",
+    "@stdlib/math-base-special-exp": "^0.1.0",
+    "@stdlib/math-base-special-log1p": "^0.1.0"
   },
   "devDependencies": {
     "@stdlib/array-base-incrspace": "^0.0.2",
-    "@stdlib/bench": "^0.0.12",
-    "@stdlib/constants-float64-eps": "^0.0.8",
-    "@stdlib/math-base-special-abs": "^0.0.6",
+    "@stdlib/bench": "^0.1.0",
+    "@stdlib/constants-float64-eps": "^0.1.0",
+    "@stdlib/math-base-special-abs": "^0.1.0",
     "@stdlib/random-base-randu": "^0.0.8",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
