@@ -30,12 +30,12 @@ var boxcoxinv = require( './../../dist' );
 
 // FIXTURES //
 
-var mediumPositive = require( './../..xtures/python/medium_positive.json' );
-var mediumNegative = require( './../..xtures/python/medium_negative.json' );
-var smallPositive = require( './../..xtures/python/small_positive.json' );
-var smallNegative = require( './../..xtures/python/small_negative.json' );
-var tiny = require( './../..xtures/python/tiny.json' );
-var lambdaZero = require( './../..xtures/python/lambda_zero.json' );
+var mediumPositive = require( './../fixtures/python/medium_positive.json' );
+var mediumNegative = require( './../fixtures/python/medium_negative.json' );
+var smallPositive = require( './../fixtures/python/small_positive.json' );
+var smallNegative = require( './../fixtures/python/small_negative.json' );
+var tiny = require( './../fixtures/python/tiny.json' );
+var lambdaZero = require( './../fixtures/python/lambda_zero.json' );
 
 
 // TESTS //
