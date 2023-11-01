@@ -39,13 +39,13 @@
   "dependencies": {
     "@stdlib/math-base-assert-is-nan": "^0.1.1",
     "@stdlib/math-base-special-exp": "^0.1.0",
-    "@stdlib/math-base-special-log1p": "^0.1.0"
+    "@stdlib/math-base-special-log1p": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/array-base-incrspace": "^0.1.0",
     "@stdlib/bench": "^0.1.0",
     "@stdlib/constants-float64-eps": "^0.1.1",
-    "@stdlib/math-base-special-abs": "^0.1.0",
+    "@stdlib/math-base-special-abs": "^0.1.1",
     "@stdlib/random-base-randu": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
