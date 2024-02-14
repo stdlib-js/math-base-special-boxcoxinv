@@ -65,7 +65,7 @@ To compute the inverse of a one-parameter [Box-Cox transformation][box-cox-trans
 To use in Observable,
 
 ```javascript
-boxcoxinv = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-boxcoxinv@umd/browser.js' )
+boxcoxinv = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-boxcoxinv@v0.2.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -77,7 +77,7 @@ var boxcoxinv = require( 'path/to/vendor/umd/math-base-special-boxcoxinv/index.j
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-boxcoxinv@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-boxcoxinv@v0.2.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -137,7 +137,7 @@ v = boxcoxinv( NaN, 3.1 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-incrspace@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-boxcoxinv@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-boxcoxinv@v0.2.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
