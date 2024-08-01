@@ -47,7 +47,7 @@
     "@stdlib/utils-library-manifest": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/array-base-incrspace": "^0.2.1",
+    "@stdlib/array-base-incrspace": "^0.2.2",
     "@stdlib/constants-float64-eps": "^0.2.2",
     "@stdlib/math-base-special-abs": "^0.2.2",
     "@stdlib/random-base-randu": "^0.2.1",
