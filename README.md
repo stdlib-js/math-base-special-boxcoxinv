@@ -63,6 +63,11 @@ To compute the inverse of a one-parameter [Box-Cox transformation][box-cox-trans
 ## Usage
 
 ```javascript
+import boxcoxinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-boxcoxinv@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-boxcoxinv/tags). For example,
+
+```javascript
 import boxcoxinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-boxcoxinv@v0.3.1-esm/index.mjs';
 ```
 
@@ -115,7 +120,7 @@ v = boxcoxinv( NaN, 3.1 );
 <script type="module">
 
 import incrspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-incrspace@esm/index.mjs';
-import boxcoxinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-boxcoxinv@v0.3.1-esm/index.mjs';
+import boxcoxinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-boxcoxinv@esm/index.mjs';
 
 var y = incrspace( -1.0, 10.0, 1.0 );
 var l = incrspace( -0.5, 5.0, 0.5 );
